@@ -1,23 +1,20 @@
 {
-  "name": "checksout",
+  "name": "backend",
   "version": "1.0.0",
-  "private": true,
-  "description": "backend",
+  "description": "",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "build": "npm run build"
+    "backend": "nodemon index.js"
   },
-  "author": "Johnson Thieu",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "@stripe/react-stripe-js": "^1.16.1",
-    "@stripe/stripe-js": "^1.46.0",
+    "body-parser": "^1.20.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "stripe": "^11.5.0"
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "stripe": "^8.219.0"
   }
 }
